@@ -1,0 +1,3608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IPC-2581 revision="C" xmlns="http://webstds.ipc.org/2581" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://webstds.ipc.org/2581 http://webstds.ipc.org/2581/IPC-2581C.xsd">
+  <Content roleRef="Owner">
+    <FunctionMode mode="ASSEMBLY"/>
+    <StepRef name="BOARD:pcb_test"/>
+    <LayerRef name="LAYER:F.Silkscreen"/>
+    <LayerRef name="LAYER:F.Paste"/>
+    <LayerRef name="LAYER:F.Mask"/>
+    <LayerRef name="LAYER:F.Cu"/>
+    <LayerRef name="LAYER:DIELECTRIC_1"/>
+    <LayerRef name="LAYER:B.Cu"/>
+    <LayerRef name="LAYER:B.Mask"/>
+    <LayerRef name="LAYER:B.Paste"/>
+    <LayerRef name="LAYER:B.Silkscreen"/>
+    <DictionaryColor/>
+    <DictionaryLineDesc units="MILLIMETER">
+      <EntryLineDesc id="LINE_1">
+        <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+      </EntryLineDesc>
+      <EntryLineDesc id="LINE_2">
+        <LineDesc lineWidth="0.150" lineEnd="ROUND"/>
+      </EntryLineDesc>
+      <EntryLineDesc id="LINE_3">
+        <LineDesc lineWidth="0.0" lineEnd="ROUND"/>
+      </EntryLineDesc>
+    </DictionaryLineDesc>
+    <DictionaryFillDesc units="MILLIMETER"/>
+    <DictionaryStandard units="MILLIMETER">
+      <EntryStandard id="RECT_1">
+        <RectCenter width="1.70" height="1.70"/>
+      </EntryStandard>
+      <EntryStandard id="OVAL_2">
+        <Oval width="1.70" height="1.70"/>
+      </EntryStandard>
+      <EntryStandard id="OVAL_3">
+        <Oval width="1.20" height="2.0"/>
+      </EntryStandard>
+      <EntryStandard id="ROUNDRECT_4">
+        <RectRound width="1.80" height="3.60" radius="0.250" upperRight="true" upperLeft="true" lowerRight="true" lowerLeft="true"/>
+      </EntryStandard>
+      <EntryStandard id="OVAL_5">
+        <Oval width="1.80" height="3.60"/>
+      </EntryStandard>
+      <EntryStandard id="OVAL_6">
+        <Oval width="2.40" height="1.60"/>
+      </EntryStandard>
+      <EntryStandard id="RECT_7">
+        <RectCenter width="2.40" height="1.60"/>
+      </EntryStandard>
+    </DictionaryStandard>
+    <DictionaryUser units="MILLIMETER">
+      <EntryUser id="UCIRCLE_1">
+        <UserSpecial>
+          <Circle diameter="1.414">
+            <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+            <FillDesc fillProperty="HOLLOW"/>
+          </Circle>
+        </UserSpecial>
+      </EntryUser>
+      <EntryUser id="UCIRCLE_2">
+        <UserSpecial>
+          <Circle diameter="1.131">
+            <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+            <FillDesc fillProperty="HOLLOW"/>
+          </Circle>
+        </UserSpecial>
+      </EntryUser>
+      <EntryUser id="UCIRCLE_3">
+        <UserSpecial>
+          <Circle diameter="1.697">
+            <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+            <FillDesc fillProperty="HOLLOW"/>
+          </Circle>
+        </UserSpecial>
+      </EntryUser>
+      <EntryUser id="URECT_4">
+        <UserSpecial>
+          <RectRound upperRight="false" upperLeft="false" lowerRight="false" lowerLeft="false" width="110.0" height="85.0" radius="0.025">
+            <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+            <FillDesc fillProperty="HOLLOW"/>
+          </RectRound>
+        </UserSpecial>
+      </EntryUser>
+    </DictionaryUser>
+  </Content>
+  <LogisticHeader>
+    <Role id="Owner" roleFunction="SENDER"/>
+    <Enterprise id="UNKNOWN" code="NONE"/>
+    <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
+  </LogisticHeader>
+  <HistoryRecord number="1" origination="2024-07-16T20:56:02" software="KiCad EDA" lastChange="2024-07-16T20:56:02">
+    <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
+      <SoftwarePackage name="KiCad" revision="8.0.3" vendor="KiCad EDA">
+        <Certification certificationStatus="SELFTEST"/>
+      </SoftwarePackage>
+    </FileRevision>
+  </HistoryRecord>
+  <Bom name="BOM:pcb_test">
+    <BomHeader revision="1.0" assembly="KI:pcb_test">
+      <StepRef name="BOARD:pcb_test"/>
+    </BomHeader>
+    <BomItem OEMDesignNumberRef="REF:Connector_Phoenix_MC_PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_Screw_Terminal_01x02" quantity="1" pinCount="2" category="ELECTRICAL">
+      <RefDes name="CMP:J1" packageRef="PKG:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical" populate="true" layerRef="LAYER:F.Cu"/>
+      <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="Screw_Terminal_01x02"/>
+      </Characteristics>
+    </BomItem>
+    <BomItem OEMDesignNumberRef="REF:Connector_PinHeader_2.54mm_PinHeader_1x08_P2.54mm_Vertical_flex_imu_connector" quantity="1" pinCount="8" category="ELECTRICAL">
+      <RefDes name="CMP:J5" packageRef="PKG:PinHeader_1x08_P2.54mm_Vertical" populate="true" layerRef="LAYER:F.Cu"/>
+      <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="flex_imu_connector"/>
+      </Characteristics>
+    </BomItem>
+    <BomItem OEMDesignNumberRef="REF:Connector_PinSocket_2.54mm_PinSocket_1x09_P2.54mm_Vertical_MAX98306" quantity="1" pinCount="9" category="ELECTRICAL">
+      <RefDes name="CMP:J3" packageRef="PKG:PinSocket_1x09_P2.54mm_Vertical" populate="true" layerRef="LAYER:F.Cu"/>
+      <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="MAX98306"/>
+      </Characteristics>
+    </BomItem>
+    <BomItem OEMDesignNumberRef="REF:Package_DIP_DIP-48_W15.24mm_Socket_LongPads_teensy 4.1" quantity="1" pinCount="48" category="ELECTRICAL">
+      <RefDes name="CMP:J2" packageRef="PKG:DIP-48_W15.24mm_Socket_LongPads" populate="true" layerRef="LAYER:F.Cu"/>
+      <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="teensy 4.1"/>
+      </Characteristics>
+    </BomItem>
+    <BomItem OEMDesignNumberRef="REF:TempLibrary_vs1053b_vs1053b" quantity="1" pinCount="32" category="ELECTRICAL">
+      <RefDes name="CMP:J4" packageRef="PKG:vs1053b" populate="true" layerRef="LAYER:F.Cu"/>
+      <Characteristics category="ELECTRICAL">
+        <Textual definitionSource="KICAD" textualCharacteristicName="Value" textualCharacteristicValue="vs1053b"/>
+      </Characteristics>
+    </BomItem>
+  </Bom>
+  <Ecad name="Design">
+    <CadHeader units="MILLIMETER"/>
+    <CadData>
+      <Layer name="LAYER:F.Silkscreen" layerFunction="SILKSCREEN" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:F.Paste" layerFunction="SOLDERPASTE" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:F.Mask" layerFunction="SOLDERMASK" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:F.Cu" layerFunction="CONDUCTOR" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:DIELECTRIC_1" layerFunction="DIELCORE" polarity="POSITIVE" side="INTERNAL"/>
+      <Layer name="LAYER:B.Cu" layerFunction="CONDUCTOR" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:B.Mask" layerFunction="SOLDERMASK" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:B.Paste" layerFunction="SOLDERPASTE" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:B.Silkscreen" layerFunction="SILKSCREEN" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:B.Adhesive" layerFunction="GLUE" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:F.Adhesive" layerFunction="GLUE" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:User.Drawings" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.Comments" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.Eco1" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.Eco2" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:Edge.Cuts" layerFunction="BOARD_OUTLINE" polarity="POSITIVE" side="ALL"/>
+      <Layer name="LAYER:Margin" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:B.Courtyard" layerFunction="COURTYARD" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:F.Courtyard" layerFunction="COURTYARD" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:B.Fab" layerFunction="ASSEMBLY" polarity="POSITIVE" side="BOTTOM"/>
+      <Layer name="LAYER:F.Fab" layerFunction="ASSEMBLY" polarity="POSITIVE" side="TOP"/>
+      <Layer name="LAYER:User.1" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.2" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.3" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.4" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.5" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.6" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.7" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.8" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="LAYER:User.9" layerFunction="DOCUMENT" polarity="POSITIVE" side="NONE"/>
+      <Layer name="DRILL:F.Cu_B.Cu" layerFunction="DRILL" polarity="POSITIVE" side="ALL">
+        <Span fromLayer="LAYER:F.Cu" toLayer="LAYER:B.Cu"/>
+      </Layer>
+      <Step name="BOARD:pcb_test" type="BOARD">
+        <NonstandardAttribute name="FOOTPRINT_COUNT" type="INTEGER" value="5"/>
+        <PadStackDef name="PADSTACK_7">
+          <PadstackHoleDef name="PTH800000_800000" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <PadStackDef name="PADSTACK_6">
+          <PadstackHoleDef name="PTH800000_800000" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <PadStackDef name="PADSTACK_5">
+          <PadstackHoleDef name="PTH1200000_1200000" diameter="1.20" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <PadStackDef name="PADSTACK_4">
+          <PadstackHoleDef name="PTH1200000_1200000" diameter="1.20" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_3"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <PadStackDef name="PADSTACK_3">
+          <PadstackHoleDef name="PTH800000_800000" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_2"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <PadStackDef name="PADSTACK_2">
+          <PadstackHoleDef name="PTH1000000_1000000" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <PadStackDef name="PADSTACK_1">
+          <PadstackHoleDef name="PTH1000000_1000000" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="0.0" y="0.0"/>
+          <PadstackPadDef layerRef="LAYER:F.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Cu" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:B.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+          <PadstackPadDef layerRef="LAYER:F.Mask" padUse="REGULAR">
+            <Location x="0.0" y="0.0"/>
+            <UserPrimitiveRef id="UCIRCLE_1"/>
+          </PadstackPadDef>
+        </PadStackDef>
+        <Datum x="0.0" y="0.0"/>
+        <Profile>
+          <Polygon>
+            <PolyBegin x="128.0" y="-101.0"/>
+            <PolyStepSegment x="18.0" y="-101.0"/>
+            <PolyStepSegment x="18.0" y="-16.0"/>
+            <PolyStepSegment x="128.0" y="-16.0"/>
+            <PolyStepSegment x="128.0" y="-101.0"/>
+          </Polygon>
+        </Profile>
+        <Package name="KI:PinHeader_1x08_P2.54mm_Vertical_1" type="OTHER" pinOne="1" pinOneOrientation="OTHER">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="1.80" y="1.80"/>
+              <PolyStepSegment x="1.80" y="-19.550"/>
+              <PolyStepSegment x="-1.80" y="-19.550"/>
+              <PolyStepSegment x="-1.80" y="1.80"/>
+              <PolyStepSegment x="1.80" y="1.80"/>
+            </Polygon>
+            <LineDescRef id="LINE_1"/>
+          </Outline>
+          <PickupPoint x="0.0" y="0.0"/>
+          <SilkScreen>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-1.330" startY="1.330" endX="0.0" endY="1.330">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.330" startY="0.0" endX="-1.330" endY="1.330">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.330" startY="-1.270" endX="-1.330" endY="-19.110">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.330" startY="-1.270" endX="1.330" endY="-1.270">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.330" startY="-19.110" endX="1.330" endY="-19.110">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.330" startY="-1.270" endX="1.330" endY="-19.110">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Marking>
+          </SilkScreen>
+          <AssemblyDrawing>
+            <Outline>
+              <Polygon>
+                <PolyBegin x="-1.320" y="1.320"/>
+                <PolyStepSegment x="-1.320" y="-19.10"/>
+                <PolyStepSegment x="1.320" y="-19.10"/>
+                <PolyStepSegment x="1.320" y="1.320"/>
+                <PolyStepSegment x="-1.320" y="1.320"/>
+                <FillDesc fillProperty="HOLLOW"/>
+              </Polygon>
+              <LineDescRef id="LINE_3"/>
+            </Outline>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-1.270" startY="0.635" endX="-0.635" endY="1.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.270" startY="-19.050" endX="-1.270" endY="0.635">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-0.635" startY="1.270" endX="1.270" endY="1.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.270" startY="1.270" endX="1.270" endY="-19.050">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.270" startY="-19.050" endX="-1.270" endY="-19.050">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <UserSpecial>
+                  <Polyline>
+                    <PolyBegin x="-0.545" y="-9.223"/>
+                    <PolyStepSegment x="0.169" y="-9.223"/>
+                    <PolyStepSegment x="0.312" y="-9.271"/>
+                    <PolyStepSegment x="0.407" y="-9.366"/>
+                    <PolyStepSegment x="0.455" y="-9.509"/>
+                    <PolyStepSegment x="0.455" y="-9.604"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                  <Polyline>
+                    <PolyBegin x="-0.545" y="-8.271"/>
+                    <PolyStepSegment x="-0.545" y="-8.747"/>
+                    <PolyStepSegment x="-0.069" y="-8.795"/>
+                    <PolyStepSegment x="-0.117" y="-8.747"/>
+                    <PolyStepSegment x="-0.164" y="-8.652"/>
+                    <PolyStepSegment x="-0.164" y="-8.414"/>
+                    <PolyStepSegment x="-0.117" y="-8.319"/>
+                    <PolyStepSegment x="-0.069" y="-8.271"/>
+                    <PolyStepSegment x="0.026" y="-8.223"/>
+                    <PolyStepSegment x="0.264" y="-8.223"/>
+                    <PolyStepSegment x="0.360" y="-8.271"/>
+                    <PolyStepSegment x="0.407" y="-8.319"/>
+                    <PolyStepSegment x="0.455" y="-8.414"/>
+                    <PolyStepSegment x="0.455" y="-8.652"/>
+                    <PolyStepSegment x="0.407" y="-8.747"/>
+                    <PolyStepSegment x="0.360" y="-8.795"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                </UserSpecial>
+              </UserSpecial>
+            </Marking>
+          </AssemblyDrawing>
+          <Pin number="PIN:1" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="0.0"/>
+            <StandardPrimitiveRef id="RECT_1"/>
+          </Pin>
+          <Pin number="PIN:2" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-2.540"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:3" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-5.080"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:4" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-7.620"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:5" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-10.160"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:6" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-12.70"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:7" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-15.240"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:8" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-17.780"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+        </Package>
+        <Package name="KI:vs1053b_2" type="OTHER" pinOne="1" pinOneOrientation="OTHER">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="19.90" y="12.750"/>
+              <PolyStepSegment x="19.90" y="-12.750"/>
+              <PolyStepSegment x="-19.90" y="-12.750"/>
+              <PolyStepSegment x="-19.90" y="12.750"/>
+              <PolyStepSegment x="19.90" y="12.750"/>
+            </Polygon>
+            <LineDescRef id="LINE_1"/>
+          </Outline>
+          <PickupPoint x="0.0" y="0.0"/>
+          <SilkScreen>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-20.150" startY="13.0" endX="-20.150" endY="4.333">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-20.150" startY="4.333" endX="-19.790" endY="4.333">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-20.150" startY="-4.333" endX="-20.150" endY="-13.0">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-20.150" startY="-13.0" endX="20.150" endY="-13.0">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-19.790" startY="4.333" endX="-19.790" endY="-4.333">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-19.790" startY="-4.333" endX="-20.150" endY="-4.333">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="20.150" startY="13.0" endX="-20.150" endY="13.0">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="20.150" startY="-13.0" endX="20.150" endY="13.0">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Marking>
+          </SilkScreen>
+          <Pin number="PIN:1" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-19.050" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:2" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-16.510" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:3" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-13.970" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:4" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-11.430" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:5" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-8.890" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:6" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-6.350" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:7" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-3.810" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:8" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-1.270" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:9" electricalType="ELECTRICAL" type="THRU">
+            <Location x="1.270" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:10" electricalType="ELECTRICAL" type="THRU">
+            <Location x="3.810" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:11" electricalType="ELECTRICAL" type="THRU">
+            <Location x="6.350" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:12" electricalType="ELECTRICAL" type="THRU">
+            <Location x="8.890" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:13" electricalType="ELECTRICAL" type="THRU">
+            <Location x="11.430" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:14" electricalType="ELECTRICAL" type="THRU">
+            <Location x="13.970" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:15" electricalType="ELECTRICAL" type="THRU">
+            <Location x="16.510" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:16" electricalType="ELECTRICAL" type="THRU">
+            <Location x="19.050" y="-11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:17" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-19.050" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:18" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-16.510" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:19" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-13.970" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:20" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-11.430" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:21" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-8.890" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:22" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-6.350" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:23" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-3.810" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:24" electricalType="ELECTRICAL" type="THRU">
+            <Location x="-1.270" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:25" electricalType="ELECTRICAL" type="THRU">
+            <Location x="1.270" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:26" electricalType="ELECTRICAL" type="THRU">
+            <Location x="3.810" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:27" electricalType="ELECTRICAL" type="THRU">
+            <Location x="6.350" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:28" electricalType="ELECTRICAL" type="THRU">
+            <Location x="8.890" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:29" electricalType="ELECTRICAL" type="THRU">
+            <Location x="11.430" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:30" electricalType="ELECTRICAL" type="THRU">
+            <Location x="13.970" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:31" electricalType="ELECTRICAL" type="THRU">
+            <Location x="16.510" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+          <Pin number="PIN:32" electricalType="ELECTRICAL" type="THRU">
+            <Location x="19.050" y="11.50"/>
+            <StandardPrimitiveRef id="OVAL_3"/>
+          </Pin>
+        </Package>
+        <Package name="KI:PinSocket_1x09_P2.54mm_Vertical_3" type="OTHER" pinOne="1" pinOneOrientation="OTHER">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="1.750" y="1.80"/>
+              <PolyStepSegment x="1.750" y="-22.10"/>
+              <PolyStepSegment x="-1.80" y="-22.10"/>
+              <PolyStepSegment x="-1.80" y="1.80"/>
+              <PolyStepSegment x="1.750" y="1.80"/>
+            </Polygon>
+            <LineDescRef id="LINE_1"/>
+          </Outline>
+          <PickupPoint x="0.0" y="0.0"/>
+          <SilkScreen>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-1.330" startY="-1.270" endX="-1.330" endY="-21.650">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.330" startY="-1.270" endX="1.330" endY="-1.270">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.330" startY="-21.650" endX="1.330" endY="-21.650">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="0.0" startY="1.330" endX="1.330" endY="1.330">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.330" startY="1.330" endX="1.330" endY="0.0">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.330" startY="-1.270" endX="1.330" endY="-21.650">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Marking>
+          </SilkScreen>
+          <AssemblyDrawing>
+            <Outline>
+              <Polygon>
+                <PolyBegin x="-1.320" y="1.320"/>
+                <PolyStepSegment x="-1.320" y="-21.640"/>
+                <PolyStepSegment x="1.320" y="-21.640"/>
+                <PolyStepSegment x="1.320" y="1.320"/>
+                <PolyStepSegment x="-1.320" y="1.320"/>
+                <FillDesc fillProperty="HOLLOW"/>
+              </Polygon>
+              <LineDescRef id="LINE_3"/>
+            </Outline>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-1.270" startY="1.270" endX="0.635" endY="1.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.270" startY="-21.590" endX="-1.270" endY="1.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="0.635" startY="1.270" endX="1.270" endY="0.635">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.270" startY="0.635" endX="1.270" endY="-21.590">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.270" startY="-21.590" endX="-1.270" endY="-21.590">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <UserSpecial>
+                  <Polyline>
+                    <PolyBegin x="-0.545" y="-10.493"/>
+                    <PolyStepSegment x="0.169" y="-10.493"/>
+                    <PolyStepSegment x="0.312" y="-10.541"/>
+                    <PolyStepSegment x="0.407" y="-10.636"/>
+                    <PolyStepSegment x="0.455" y="-10.779"/>
+                    <PolyStepSegment x="0.455" y="-10.874"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                  <Polyline>
+                    <PolyBegin x="-0.545" y="-10.112"/>
+                    <PolyStepSegment x="-0.545" y="-9.493"/>
+                    <PolyStepSegment x="-0.164" y="-9.827"/>
+                    <PolyStepSegment x="-0.164" y="-9.684"/>
+                    <PolyStepSegment x="-0.117" y="-9.589"/>
+                    <PolyStepSegment x="-0.069" y="-9.541"/>
+                    <PolyStepSegment x="0.026" y="-9.493"/>
+                    <PolyStepSegment x="0.264" y="-9.493"/>
+                    <PolyStepSegment x="0.360" y="-9.541"/>
+                    <PolyStepSegment x="0.407" y="-9.589"/>
+                    <PolyStepSegment x="0.455" y="-9.684"/>
+                    <PolyStepSegment x="0.455" y="-9.970"/>
+                    <PolyStepSegment x="0.407" y="-10.065"/>
+                    <PolyStepSegment x="0.360" y="-10.112"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                </UserSpecial>
+              </UserSpecial>
+            </Marking>
+          </AssemblyDrawing>
+          <Pin number="PIN:1" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="0.0"/>
+            <StandardPrimitiveRef id="RECT_1"/>
+          </Pin>
+          <Pin number="PIN:2" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-2.540"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:3" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-5.080"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:4" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-7.620"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:5" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-10.160"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:6" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-12.70"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:7" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-15.240"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:8" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-17.780"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+          <Pin number="PIN:9" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-20.320"/>
+            <StandardPrimitiveRef id="OVAL_2"/>
+          </Pin>
+        </Package>
+        <Package name="KI:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_4" type="OTHER" pinOne="1" pinOneOrientation="OTHER">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="6.450" y="4.750"/>
+              <PolyStepSegment x="6.450" y="-3.50"/>
+              <PolyStepSegment x="-2.950" y="-3.50"/>
+              <PolyStepSegment x="-2.950" y="4.750"/>
+              <PolyStepSegment x="6.450" y="4.750"/>
+            </Polygon>
+            <LineDescRef id="LINE_1"/>
+          </Outline>
+          <PickupPoint x="0.0" y="0.0"/>
+          <SilkScreen>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-2.950" startY="4.750" endX="-0.950" endY="4.750">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-2.950" startY="3.50" endX="-2.950" endY="4.750">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-2.560" startY="4.360" endX="-2.560" endY="-3.110">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-2.560" startY="-3.110" endX="6.060" endY="-3.110">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.50" startY="3.40" endX="1.50" endY="3.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.50" startY="2.050" endX="-0.750" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.50" startY="-2.250" endX="-1.50" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.250" startY="2.40" endX="-1.50" endY="3.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-0.750" startY="2.40" endX="-1.250" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-0.750" startY="2.050" endX="-0.750" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-0.750" startY="-2.250" endX="-1.50" endY="-2.250">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="0.750" startY="2.40" endX="0.750" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="0.750" startY="2.050" endX="1.50" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.250" startY="2.40" endX="0.750" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.50" startY="3.40" endX="1.250" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.50" startY="2.050" endX="1.50" endY="-2.250">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.50" startY="-2.250" endX="0.750" endY="-2.250">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.0" startY="3.40" endX="5.0" endY="3.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.0" startY="2.050" endX="2.750" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.0" startY="-2.250" endX="2.0" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.250" startY="2.40" endX="2.0" endY="3.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.750" startY="2.40" endX="2.250" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.750" startY="2.050" endX="2.750" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="2.750" startY="-2.250" endX="2.0" endY="-2.250">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="4.250" startY="2.40" endX="4.250" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="4.250" startY="2.050" endX="5.0" endY="2.050">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="4.750" startY="2.40" endX="4.250" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="5.0" startY="3.40" endX="4.750" endY="2.40">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="5.0" startY="2.050" endX="5.0" endY="-2.250">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="5.0" startY="-2.250" endX="4.250" endY="-2.250">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="6.060" startY="4.360" endX="-2.560" endY="4.360">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="6.060" startY="-3.110" endX="6.060" endY="4.360">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Arc startX="-0.750" startY="-2.250" endX="0.750" endY="-2.250" centerX="0.0" centerY="-3.950" clockwise="true">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Arc>
+                <Arc startX="2.750" startY="-2.250" endX="4.250" endY="-2.250" centerX="3.50" centerY="-3.950" clockwise="true">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Arc>
+              </UserSpecial>
+            </Marking>
+          </SilkScreen>
+          <AssemblyDrawing>
+            <Outline>
+              <Polygon>
+                <PolyBegin x="-3.0" y="4.80"/>
+                <PolyStepSegment x="-3.0" y="-3.050"/>
+                <PolyStepSegment x="6.0" y="-3.050"/>
+                <PolyStepSegment x="6.0" y="4.80"/>
+                <PolyStepSegment x="-3.0" y="4.80"/>
+                <FillDesc fillProperty="HOLLOW"/>
+              </Polygon>
+              <LineDescRef id="LINE_3"/>
+            </Outline>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Line startX="-2.950" startY="4.750" endX="-0.950" endY="4.750">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-2.950" startY="3.50" endX="-2.950" endY="4.750">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-2.450" startY="4.250" endX="-2.450" endY="-3.0">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-2.450" startY="-3.0" endX="5.950" endY="-3.0">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="5.950" startY="4.250" endX="-2.450" endY="4.250">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="5.950" startY="-3.0" endX="5.950" endY="4.250">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <UserSpecial>
+                  <Polyline>
+                    <PolyBegin x="1.417" y="4.095"/>
+                    <PolyStepSegment x="1.417" y="3.381"/>
+                    <PolyStepSegment x="1.369" y="3.238"/>
+                    <PolyStepSegment x="1.274" y="3.143"/>
+                    <PolyStepSegment x="1.131" y="3.095"/>
+                    <PolyStepSegment x="1.036" y="3.095"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                  <Line startX="2.417" startY="3.095" endX="1.845" endY="3.095">
+                    <LineDescRef id="LINE_2"/>
+                  </Line>
+                  <Polyline>
+                    <PolyBegin x="2.131" y="3.095"/>
+                    <PolyStepSegment x="2.131" y="4.095"/>
+                    <PolyStepSegment x="2.036" y="3.952"/>
+                    <PolyStepSegment x="1.940" y="3.857"/>
+                    <PolyStepSegment x="1.845" y="3.809"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                </UserSpecial>
+              </UserSpecial>
+            </Marking>
+          </AssemblyDrawing>
+          <Pin number="PIN:1" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="0.0"/>
+            <StandardPrimitiveRef id="ROUNDRECT_4"/>
+          </Pin>
+          <Pin number="PIN:2" electricalType="ELECTRICAL" type="THRU">
+            <Location x="3.50" y="0.0"/>
+            <StandardPrimitiveRef id="OVAL_5"/>
+          </Pin>
+        </Package>
+        <Package name="KI:DIP-48_W15.24mm_Socket_LongPads_5" type="OTHER" pinOne="1" pinOneOrientation="OTHER">
+          <Outline>
+            <Polygon>
+              <PolyBegin x="16.80" y="1.60"/>
+              <PolyStepSegment x="16.80" y="-60.0"/>
+              <PolyStepSegment x="-1.550" y="-60.0"/>
+              <PolyStepSegment x="-1.550" y="1.60"/>
+              <PolyStepSegment x="16.80" y="1.60"/>
+            </Polygon>
+            <LineDescRef id="LINE_1"/>
+          </Outline>
+          <PickupPoint x="0.0" y="0.0"/>
+          <SilkScreen>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <Arc startX="8.620" startY="1.330" endX="6.620" endY="1.330" centerX="7.620" centerY="1.330" clockwise="true">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Arc>
+                <Line startX="16.680" startY="-59.810" endX="16.680" endY="1.390">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="16.680" startY="1.390" endX="-1.440" endY="1.390">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="13.680" startY="-59.750" endX="13.680" endY="1.330">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="13.680" startY="1.330" endX="8.620" endY="1.330">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="6.620" startY="1.330" endX="1.560" endY="1.330">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.560" startY="-59.750" endX="13.680" endY="-59.750">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.560" startY="1.330" endX="1.560" endY="-59.750">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.440" startY="-59.810" endX="16.680" endY="-59.810">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.440" startY="1.390" endX="-1.440" endY="-59.810">
+                  <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Marking>
+          </SilkScreen>
+          <AssemblyDrawing>
+            <Outline>
+              <Polygon>
+                <PolyBegin x="-1.320" y="1.380"/>
+                <PolyStepSegment x="-1.320" y="-59.80"/>
+                <PolyStepSegment x="16.560" y="-59.80"/>
+                <PolyStepSegment x="16.560" y="1.380"/>
+                <PolyStepSegment x="-1.320" y="1.380"/>
+                <FillDesc fillProperty="HOLLOW"/>
+              </Polygon>
+              <LineDescRef id="LINE_3"/>
+            </Outline>
+            <Marking markingUsage="NONE">
+              <UserSpecial>
+                <UserSpecial>
+                  <Polyline>
+                    <PolyBegin x="7.287" y="-28.665"/>
+                    <PolyStepSegment x="7.287" y="-29.379"/>
+                    <PolyStepSegment x="7.239" y="-29.522"/>
+                    <PolyStepSegment x="7.144" y="-29.617"/>
+                    <PolyStepSegment x="7.001" y="-29.665"/>
+                    <PolyStepSegment x="6.906" y="-29.665"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                  <Polyline>
+                    <PolyBegin x="7.715" y="-28.760"/>
+                    <PolyStepSegment x="7.763" y="-28.712"/>
+                    <PolyStepSegment x="7.858" y="-28.665"/>
+                    <PolyStepSegment x="8.096" y="-28.665"/>
+                    <PolyStepSegment x="8.191" y="-28.712"/>
+                    <PolyStepSegment x="8.239" y="-28.760"/>
+                    <PolyStepSegment x="8.287" y="-28.855"/>
+                    <PolyStepSegment x="8.287" y="-28.951"/>
+                    <PolyStepSegment x="8.239" y="-29.093"/>
+                    <PolyStepSegment x="7.668" y="-29.665"/>
+                    <PolyStepSegment x="8.287" y="-29.665"/>
+                    <LineDescRef id="LINE_2"/>
+                  </Polyline>
+                </UserSpecial>
+                <Line startX="16.510" startY="-59.750" endX="16.510" endY="1.330">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="16.510" startY="1.330" endX="-1.270" endY="1.330">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="14.985" startY="-59.690" endX="0.255" endY="-59.690">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="14.985" startY="1.270" endX="14.985" endY="-59.690">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="1.255" startY="1.270" endX="14.985" endY="1.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="0.255" startY="-59.690" endX="0.255" endY="0.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="0.255" startY="0.270" endX="1.255" endY="1.270">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.270" startY="-59.750" endX="16.510" endY="-59.750">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="-1.270" startY="1.330" endX="-1.270" endY="-59.750">
+                  <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Marking>
+          </AssemblyDrawing>
+          <Pin number="PIN:48" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="0.0"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:47" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-2.540"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:46" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-5.080"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:45" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-7.620"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:44" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-10.160"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:43" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-12.70"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:42" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-15.240"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:41" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-17.780"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:40" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-20.320"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:39" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-22.860"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:38" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-25.40"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:37" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-27.940"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:36" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-30.480"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:35" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-33.020"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:34" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-35.560"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:33" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-38.10"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:32" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-40.640"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:31" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-43.180"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:30" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-45.720"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:29" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-48.260"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:28" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-50.80"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:27" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-53.340"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:26" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-55.880"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:25" electricalType="ELECTRICAL" type="THRU">
+            <Location x="15.240" y="-58.420"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:24" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-58.420"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:23" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-55.880"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:22" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-53.340"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:21" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-50.80"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:20" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-48.260"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:19" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-45.720"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:18" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-43.180"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:17" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-40.640"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:16" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-38.10"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:15" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-35.560"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:14" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-33.020"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:13" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-30.480"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:12" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-27.940"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:11" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-25.40"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:10" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-22.860"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:9" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-20.320"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:8" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-17.780"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:7" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-15.240"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:6" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-12.70"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:5" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-10.160"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:4" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-7.620"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:3" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-5.080"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:2" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="-2.540"/>
+            <StandardPrimitiveRef id="OVAL_6"/>
+          </Pin>
+          <Pin number="PIN:1" electricalType="ELECTRICAL" type="THRU">
+            <Location x="0.0" y="0.0"/>
+            <StandardPrimitiveRef id="RECT_7"/>
+          </Pin>
+        </Package>
+        <Component refDes="CMP:J5" packageRef="KI:PinHeader_1x08_P2.54mm_Vertical_1" part="REF:Connector_PinHeader_2.54mm_PinHeader_1x08_P2.54mm_Vertical_flex_imu_connector" layerRef="LAYER:F.Cu" mountType="THMT">
+          <Location x="113.740" y="-32.180"/>
+        </Component>
+        <Component refDes="CMP:J4" packageRef="KI:vs1053b_2" part="REF:TempLibrary_vs1053b_vs1053b" layerRef="LAYER:F.Cu" mountType="THMT">
+          <Xform rotation="90.0"/>
+          <Location x="60.240" y="-49.730"/>
+        </Component>
+        <Component refDes="CMP:J3" packageRef="KI:PinSocket_1x09_P2.54mm_Vertical_3" part="REF:Connector_PinSocket_2.54mm_PinSocket_1x09_P2.54mm_Vertical_MAX98306" layerRef="LAYER:F.Cu" mountType="THMT">
+          <Location x="39.240" y="-48.10"/>
+        </Component>
+        <Component refDes="CMP:J1" packageRef="KI:PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_4" part="REF:Connector_Phoenix_MC_PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_Screw_Terminal_01x02" layerRef="LAYER:F.Cu" mountType="THMT">
+          <Xform rotation="180.0"/>
+          <Location x="115.740" y="-75.180"/>
+        </Component>
+        <Component refDes="CMP:J2" packageRef="KI:DIP-48_W15.24mm_Socket_LongPads_5" part="REF:Package_DIP_DIP-48_W15.24mm_Socket_LongPads_teensy 4.1" layerRef="LAYER:F.Cu" mountType="THMT">
+          <Location x="88.0" y="-29.680"/>
+        </Component>
+        <LayerFeature layerRef="LAYER:F.Cu">
+          <Set net="NET:Net-(J1-Pin_1)">
+            <Features>
+              <UserSpecial>
+                <Line startX="46.60" startY="-53.540" endX="41.160" endY="-48.10">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="41.160" startY="-48.10" endX="39.240" endY="-48.10">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-53.540" endX="46.60" endY="-53.540">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="53.990" startY="-56.430" endX="53.990" endY="-72.930">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="51.10" startY="-53.540" endX="53.990" endY="-56.430">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="53.990" startY="-72.930" endX="79.740" endY="-98.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-53.540" endX="51.10" endY="-53.540">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="124.740" startY="-62.180" endX="124.740" endY="-36.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="115.740" startY="-71.180" endX="124.740" endY="-62.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="124.740" startY="-36.680" endX="120.240" endY="-32.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="115.740" startY="-75.180" endX="115.740" endY="-71.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="120.240" startY="-32.180" endX="113.740" endY="-32.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="108.320" startY="-88.10" endX="103.240" endY="-88.10">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="115.740" startY="-80.680" endX="108.320" endY="-88.10">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="115.740" startY="-75.180" endX="115.740" endY="-80.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="101.820" startY="-88.10" endX="91.240" endY="-98.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="91.240" startY="-98.680" endX="79.740" endY="-98.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="103.240" startY="-88.10" endX="101.820" endY="-88.10">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-88.10"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:25" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_4">
+              <Xform rotation="180.0"/>
+              <Location x="115.740" y="-75.180"/>
+              <StandardPrimitiveRef id="ROUNDRECT_4"/>
+              <PinRef pin="PIN:1" componentRef="CMP:J1"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-53.540"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:23" componentRef="CMP:J4"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_1">
+              <Location x="113.740" y="-32.180"/>
+              <StandardPrimitiveRef id="RECT_1"/>
+              <PinRef pin="PIN:1" componentRef="CMP:J5"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_1">
+              <Location x="39.240" y="-48.10"/>
+              <StandardPrimitiveRef id="RECT_1"/>
+              <PinRef pin="PIN:1" componentRef="CMP:J3"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J1-Pin_2)">
+            <Features>
+              <UserSpecial>
+                <Line startX="37.740" startY="-50.680" endX="37.780" endY="-50.640">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="35.240" startY="-48.180" endX="37.740" endY="-50.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="35.240" startY="-45.680" endX="35.240" endY="-48.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="41.740" startY="-44.180" endX="36.740" endY="-44.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="36.740" startY="-44.180" endX="35.240" endY="-45.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="46.020" startY="-48.460" endX="41.740" endY="-44.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="37.780" startY="-50.640" endX="39.240" endY="-50.640">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-48.460" endX="46.020" endY="-48.460">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="56.490" startY="-52.930" endX="56.490" endY="-72.430">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="52.020" startY="-48.460" endX="56.490" endY="-52.930">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="80.740" startY="-96.680" endX="56.490" endY="-72.430">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-48.460" endX="52.020" endY="-48.460">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="100.860" startY="-85.560" endX="89.740" endY="-96.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="89.740" startY="-96.680" endX="80.740" endY="-96.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="103.240" startY="-85.560" endX="100.860" endY="-85.560">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="119.280" startY="-34.720" endX="113.740" endY="-34.720">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="122.240" startY="-60.680" endX="122.240" endY="-37.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="122.240" startY="-37.680" endX="119.280" endY="-34.720">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="112.240" startY="-70.680" endX="122.240" endY="-60.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="112.240" startY="-75.180" endX="112.240" endY="-70.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="107.360" startY="-85.560" endX="103.240" endY="-85.560">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="112.240" startY="-80.680" endX="107.360" endY="-85.560">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="112.240" startY="-75.180" endX="112.240" endY="-80.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-85.560"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:26" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_5">
+              <Xform rotation="180.0"/>
+              <Location x="112.240" y="-75.180"/>
+              <StandardPrimitiveRef id="OVAL_5"/>
+              <PinRef pin="PIN:2" componentRef="CMP:J1"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-48.460"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:25" componentRef="CMP:J4"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-34.720"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:2" componentRef="CMP:J5"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="39.240" y="-50.640"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:2" componentRef="CMP:J3"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_11)">
+            <Features>
+              <UserSpecial>
+                <Line startX="93.740" startY="-50.680" endX="89.340" endY="-55.080">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="45.240" startY="-26.180" endX="49.740" endY="-21.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="49.740" startY="-21.680" endX="88.240" endY="-21.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="46.360" startY="-38.30" endX="45.240" endY="-37.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="45.240" startY="-37.180" endX="45.240" endY="-26.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-38.30" endX="46.360" endY="-38.30">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.240" startY="-21.680" endX="93.740" endY="-27.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="89.340" startY="-55.080" endX="88.0" endY="-55.080">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="93.740" startY="-27.180" endX="93.740" endY="-50.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="88.0" y="-55.080"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:11" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-38.30"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:29" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_12)">
+            <Features>
+              <UserSpecial>
+                <Line startX="54.160" startY="-35.760" endX="48.740" endY="-35.760">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="79.240" startY="-23.680" endX="66.240" endY="-23.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="83.740" startY="-56.680" endX="83.740" endY="-28.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="83.740" startY="-28.180" endX="79.240" endY="-23.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.0" startY="-57.620" endX="84.680" endY="-57.620">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="84.680" startY="-57.620" endX="83.740" endY="-56.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="66.240" startY="-23.680" endX="54.160" endY="-35.760">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="88.0" y="-57.620"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:12" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-35.760"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:30" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_13)">
+            <Features>
+              <UserSpecial>
+                <Line startX="63.240" startY="-34.680" endX="54.540" endY="-43.380">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="54.540" startY="-43.380" endX="48.740" endY="-43.380">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="63.240" startY="-29.680" endX="63.240" endY="-34.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="67.240" startY="-25.680" endX="63.240" endY="-29.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="77.740" startY="-25.680" endX="67.240" endY="-25.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="81.240" startY="-29.180" endX="77.740" endY="-25.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.0" startY="-60.160" endX="84.220" endY="-60.160">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="84.220" startY="-60.160" endX="81.240" endY="-57.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="81.240" startY="-57.180" endX="81.240" endY="-29.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="88.0" y="-60.160"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:13" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-43.380"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:27" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_14)">
+            <Features>
+              <UserSpecial>
+                <Line startX="55.0" startY="-45.920" endX="48.740" endY="-45.920">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="65.740" startY="-35.180" endX="55.0" endY="-45.920">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="65.740" startY="-30.680" endX="65.740" endY="-35.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="78.740" startY="-58.180" endX="78.740" endY="-30.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="83.260" startY="-62.70" endX="78.740" endY="-58.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="68.740" startY="-27.680" endX="65.740" endY="-30.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="78.740" startY="-30.180" endX="76.240" endY="-27.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="76.240" startY="-27.680" endX="68.740" endY="-27.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.0" startY="-62.70" endX="83.260" endY="-62.70">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="88.0" y="-62.70"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:14" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-45.920"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:26" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_27)">
+            <Features>
+              <UserSpecial>
+                <Line startX="100.150" startY="-83.020" endX="103.240" endY="-83.020">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.990" startY="-94.180" endX="100.150" endY="-83.020">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="81.240" startY="-94.180" endX="88.990" endY="-94.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="59.240" startY="-56.180" endX="59.240" endY="-72.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="59.240" startY="-72.180" endX="81.240" endY="-94.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="61.880" startY="-53.540" endX="59.240" endY="-56.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="71.740" startY="-53.540" endX="61.880" endY="-53.540">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-83.020"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:27" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="71.740" y="-53.540"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:7" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_30)">
+            <Features>
+              <UserSpecial>
+                <Line startX="74.780" startY="-33.220" endX="71.740" endY="-33.220">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="76.240" startY="-85.680" endX="76.240" endY="-34.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="76.240" startY="-34.680" endX="74.780" endY="-33.220">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.240" startY="-91.680" endX="82.240" endY="-91.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="98.020" startY="-75.40" endX="92.240" endY="-81.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="92.240" startY="-81.180" endX="92.240" endY="-87.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="92.240" startY="-87.680" endX="88.240" endY="-91.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="82.240" startY="-91.680" endX="76.240" endY="-85.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="103.240" startY="-75.40" endX="98.020" endY="-75.40">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-75.40"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:30" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="71.740" y="-33.220"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:15" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_32)">
+            <Features>
+              <UserSpecial>
+                <Line startX="109.10" startY="-70.320" endX="103.240" endY="-70.320">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="119.740" startY="-59.680" endX="109.10" endY="-70.320">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="119.740" startY="-39.180" endX="119.740" endY="-59.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="117.820" startY="-37.260" endX="119.740" endY="-39.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.740" startY="-37.260" endX="117.820" endY="-37.260">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-70.320"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:32" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-37.260"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:3" componentRef="CMP:J5"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_33)">
+            <Features>
+              <UserSpecial>
+                <Line startX="117.240" startY="-58.680" endX="108.140" endY="-67.780">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="117.240" startY="-40.680" endX="117.240" endY="-58.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="116.360" startY="-39.80" endX="117.240" endY="-40.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.740" startY="-39.80" endX="116.360" endY="-39.80">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="108.140" startY="-67.780" endX="103.240" endY="-67.780">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-67.780"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:33" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-39.80"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:4" componentRef="CMP:J5"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_38)">
+            <Features>
+              <UserSpecial>
+                <Line startX="95.740" startY="-26.680" endX="95.740" endY="-47.580">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-19.680" endX="88.740" endY="-19.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="88.740" startY="-19.680" endX="95.740" endY="-26.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="43.240" startY="-25.180" endX="48.740" endY="-19.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="43.240" startY="-37.680" endX="43.240" endY="-25.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="46.40" startY="-40.840" endX="43.240" endY="-37.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="95.740" startY="-47.580" endX="103.240" endY="-55.080">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-40.840" endX="46.40" endY="-40.840">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-55.080"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:38" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-40.840"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:28" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_40)">
+            <Features>
+              <UserSpecial>
+                <Line startX="103.280" startY="-49.960" endX="103.240" endY="-50.0">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.740" startY="-49.960" endX="103.280" endY="-49.960">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-50.0"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:40" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-49.960"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:8" componentRef="CMP:J5"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_41)">
+            <Features>
+              <UserSpecial>
+                <Line startX="112.960" startY="-47.460" endX="103.240" endY="-47.460">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.740" startY="-47.420" endX="113.0" endY="-47.420">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.0" startY="-47.420" endX="112.960" endY="-47.460">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-47.460"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:41" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-47.420"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:7" componentRef="CMP:J5"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_42)">
+            <Features>
+              <UserSpecial>
+                <Line startX="103.280" startY="-44.880" endX="103.240" endY="-44.920">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.740" startY="-44.880" endX="103.280" endY="-44.880">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-44.920"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:42" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-44.880"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:6" componentRef="CMP:J5"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J2-Pin_43)">
+            <Features>
+              <UserSpecial>
+                <Line startX="103.280" startY="-42.340" endX="103.240" endY="-42.380">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="113.740" startY="-42.340" endX="103.280" endY="-42.340">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-42.380"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:43" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="113.740" y="-42.340"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:5" componentRef="CMP:J5"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J3-Pin_4)">
+            <Features>
+              <UserSpecial>
+                <Line startX="38.20" startY="-55.720" endX="39.240" endY="-55.720">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="35.740" startY="-58.180" endX="38.20" endY="-55.720">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="37.740" startY="-70.680" endX="35.740" endY="-68.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="41.740" startY="-70.680" endX="37.740" endY="-70.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="35.740" startY="-68.680" endX="35.740" endY="-58.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="46.180" startY="-66.240" endX="41.740" endY="-70.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-66.240" endX="46.180" endY="-66.240">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-66.240"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:18" componentRef="CMP:J4"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="39.240" y="-55.720"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:4" componentRef="CMP:J3"/>
+            </Pad>
+          </Set>
+          <Set net="NET:Net-(J3-Pin_5)">
+            <Features>
+              <UserSpecial>
+                <Line startX="41.320" startY="-58.260" endX="39.240" endY="-58.260">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="46.760" startY="-63.70" endX="41.320" endY="-58.260">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="48.740" startY="-63.70" endX="46.760" endY="-63.70">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="48.740" y="-63.70"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:19" componentRef="CMP:J4"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_2">
+              <Location x="39.240" y="-58.260"/>
+              <StandardPrimitiveRef id="OVAL_2"/>
+              <PinRef pin="PIN:5" componentRef="CMP:J3"/>
+            </Pad>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="LAYER:B.Cu">
+          <Set net="NET:Net-(J2-Pin_39)">
+            <Features>
+              <UserSpecial>
+                <Line startX="82.240" startY="-45.580" endX="71.740" endY="-56.080">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="82.240" startY="-28.180" endX="82.240" endY="-45.580">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="85.240" startY="-25.180" endX="82.240" endY="-28.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="93.240" startY="-25.180" endX="85.240" endY="-25.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="99.740" startY="-31.680" endX="93.240" endY="-25.180">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="99.740" startY="-49.040" endX="99.740" endY="-31.680">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+                <Line startX="103.240" startY="-52.540" endX="99.740" endY="-49.040">
+                  <LineDesc lineWidth="0.20" lineEnd="ROUND"/>
+                </Line>
+              </UserSpecial>
+            </Features>
+            <Pad padstackDefRef="PADSTACK_6">
+              <Location x="103.240" y="-52.540"/>
+              <StandardPrimitiveRef id="OVAL_6"/>
+              <PinRef pin="PIN:39" componentRef="CMP:J2"/>
+            </Pad>
+            <Pad padstackDefRef="PADSTACK_3">
+              <Xform rotation="90.0"/>
+              <Location x="71.740" y="-56.080"/>
+              <StandardPrimitiveRef id="OVAL_3"/>
+              <PinRef pin="PIN:6" componentRef="CMP:J4"/>
+            </Pad>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="LAYER:F.Silkscreen">
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Arc startX="96.620" startY="-28.350" endX="94.620" endY="-28.350" centerX="95.620" centerY="-28.350" clockwise="true">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Arc>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="104.680" startY="-89.490" endX="104.680" endY="-28.290">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="104.680" startY="-28.290" endX="86.560" endY="-28.290">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="101.680" startY="-89.430" endX="101.680" endY="-28.350">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="101.680" startY="-28.350" endX="96.620" endY="-28.350">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="94.620" startY="-28.350" endX="89.560" endY="-28.350">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="89.560" startY="-89.430" endX="101.680" endY="-89.430">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="89.560" startY="-28.350" endX="89.560" endY="-89.430">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="86.560" startY="-89.490" endX="104.680" endY="-89.490">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="86.560" startY="-28.290" endX="86.560" endY="-89.490">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J2">
+            <NonstandardAttribute name="TEXT" value="J2" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="95.287" y="-26.805"/>
+                  <PolyStepSegment x="95.287" y="-27.519"/>
+                  <PolyStepSegment x="95.239" y="-27.662"/>
+                  <PolyStepSegment x="95.144" y="-27.757"/>
+                  <PolyStepSegment x="95.001" y="-27.805"/>
+                  <PolyStepSegment x="94.906" y="-27.805"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="95.715" y="-26.90"/>
+                  <PolyStepSegment x="95.763" y="-26.852"/>
+                  <PolyStepSegment x="95.858" y="-26.805"/>
+                  <PolyStepSegment x="96.096" y="-26.805"/>
+                  <PolyStepSegment x="96.191" y="-26.852"/>
+                  <PolyStepSegment x="96.239" y="-26.90"/>
+                  <PolyStepSegment x="96.287" y="-26.995"/>
+                  <PolyStepSegment x="96.287" y="-27.091"/>
+                  <PolyStepSegment x="96.239" y="-27.233"/>
+                  <PolyStepSegment x="95.668" y="-27.805"/>
+                  <PolyStepSegment x="96.287" y="-27.805"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.690" startY="-79.930" endX="116.690" endY="-79.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.690" startY="-78.680" endX="118.690" endY="-79.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.30" startY="-79.540" endX="118.30" endY="-72.070">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.30" startY="-72.070" endX="109.680" endY="-72.070">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="117.240" startY="-78.580" endX="114.240" endY="-78.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="117.240" startY="-77.230" endX="116.490" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="117.240" startY="-72.930" endX="117.240" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="116.990" startY="-77.580" endX="117.240" endY="-78.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="116.490" startY="-77.580" endX="116.990" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="116.490" startY="-77.230" endX="116.490" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="116.490" startY="-72.930" endX="117.240" endY="-72.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="114.990" startY="-77.580" endX="114.990" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="114.990" startY="-77.230" endX="114.240" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="114.490" startY="-77.580" endX="114.990" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="114.240" startY="-78.580" endX="114.490" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="114.240" startY="-77.230" endX="114.240" endY="-72.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="114.240" startY="-72.930" endX="114.990" endY="-72.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="113.740" startY="-78.580" endX="110.740" endY="-78.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="113.740" startY="-77.230" endX="112.990" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="113.740" startY="-72.930" endX="113.740" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="113.490" startY="-77.580" endX="113.740" endY="-78.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.990" startY="-77.580" endX="113.490" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.990" startY="-77.230" endX="112.990" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.990" startY="-72.930" endX="113.740" endY="-72.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="111.490" startY="-77.580" endX="111.490" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="111.490" startY="-77.230" endX="110.740" endY="-77.230">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="110.990" startY="-77.580" endX="111.490" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="110.740" startY="-78.580" endX="110.990" endY="-77.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="110.740" startY="-77.230" endX="110.740" endY="-72.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="110.740" startY="-72.930" endX="111.490" endY="-72.930">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="109.680" startY="-79.540" endX="118.30" endY="-79.540">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="109.680" startY="-72.070" endX="109.680" endY="-79.540">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Arc startX="116.490" startY="-72.930" endX="114.990" endY="-72.930" centerX="115.740" centerY="-71.230" clockwise="true">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Arc>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Arc startX="112.990" startY="-72.930" endX="111.490" endY="-72.930" centerX="112.240" centerY="-71.230" clockwise="true">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Arc>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J1">
+            <NonstandardAttribute name="TEXT" value="J1" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="113.657" y="-80.085"/>
+                  <PolyStepSegment x="113.657" y="-80.799"/>
+                  <PolyStepSegment x="113.609" y="-80.942"/>
+                  <PolyStepSegment x="113.514" y="-81.037"/>
+                  <PolyStepSegment x="113.371" y="-81.085"/>
+                  <PolyStepSegment x="113.276" y="-81.085"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Line startX="114.657" startY="-81.085" endX="114.085" endY="-81.085">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="114.371" y="-81.085"/>
+                  <PolyStepSegment x="114.371" y="-80.085"/>
+                  <PolyStepSegment x="114.276" y="-80.228"/>
+                  <PolyStepSegment x="114.180" y="-80.323"/>
+                  <PolyStepSegment x="114.085" y="-80.371"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="47.240" startY="-69.880" endX="55.907" endY="-69.880">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="55.907" startY="-69.880" endX="55.907" endY="-69.520">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="64.573" startY="-69.880" endX="73.240" endY="-69.880">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="73.240" startY="-69.880" endX="73.240" endY="-29.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="55.907" startY="-69.520" endX="64.573" endY="-69.520">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="64.573" startY="-69.520" endX="64.573" endY="-69.880">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="47.240" startY="-29.580" endX="47.240" endY="-69.880">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="73.240" startY="-29.580" endX="47.240" endY="-29.580">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J4">
+            <NonstandardAttribute name="TEXT" value="J4" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="59.907" y="-70.335"/>
+                  <PolyStepSegment x="59.907" y="-71.049"/>
+                  <PolyStepSegment x="59.859" y="-71.192"/>
+                  <PolyStepSegment x="59.764" y="-71.287"/>
+                  <PolyStepSegment x="59.621" y="-71.335"/>
+                  <PolyStepSegment x="59.526" y="-71.335"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Line startX="60.811" startY="-70.668" endX="60.811" endY="-71.335">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="60.573" y="-70.287"/>
+                  <PolyStepSegment x="60.335" y="-71.001"/>
+                  <PolyStepSegment x="60.954" y="-71.001"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.410" startY="-30.850" endX="113.740" endY="-30.850">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.410" startY="-32.180" endX="112.410" endY="-30.850">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.410" startY="-33.450" endX="112.410" endY="-51.290">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.410" startY="-33.450" endX="115.070" endY="-33.450">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.410" startY="-51.290" endX="115.070" endY="-51.290">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="115.070" startY="-33.450" endX="115.070" endY="-51.290">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J5">
+            <NonstandardAttribute name="TEXT" value="J5" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="113.407" y="-29.305"/>
+                  <PolyStepSegment x="113.407" y="-30.019"/>
+                  <PolyStepSegment x="113.359" y="-30.162"/>
+                  <PolyStepSegment x="113.264" y="-30.257"/>
+                  <PolyStepSegment x="113.121" y="-30.305"/>
+                  <PolyStepSegment x="113.026" y="-30.305"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="114.359" y="-29.305"/>
+                  <PolyStepSegment x="113.883" y="-29.305"/>
+                  <PolyStepSegment x="113.835" y="-29.781"/>
+                  <PolyStepSegment x="113.883" y="-29.733"/>
+                  <PolyStepSegment x="113.978" y="-29.686"/>
+                  <PolyStepSegment x="114.216" y="-29.686"/>
+                  <PolyStepSegment x="114.311" y="-29.733"/>
+                  <PolyStepSegment x="114.359" y="-29.781"/>
+                  <PolyStepSegment x="114.407" y="-29.876"/>
+                  <PolyStepSegment x="114.407" y="-30.114"/>
+                  <PolyStepSegment x="114.359" y="-30.210"/>
+                  <PolyStepSegment x="114.311" y="-30.257"/>
+                  <PolyStepSegment x="114.216" y="-30.305"/>
+                  <PolyStepSegment x="113.978" y="-30.305"/>
+                  <PolyStepSegment x="113.883" y="-30.257"/>
+                  <PolyStepSegment x="113.835" y="-30.210"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.910" startY="-49.370" endX="37.910" endY="-69.750">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.910" startY="-49.370" endX="40.570" endY="-49.370">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.910" startY="-69.750" endX="40.570" endY="-69.750">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="39.240" startY="-46.770" endX="40.570" endY="-46.770">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="40.570" startY="-46.770" endX="40.570" endY="-48.10">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="40.570" startY="-49.370" endX="40.570" endY="-69.750">
+                <LineDesc lineWidth="0.120" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J3">
+            <NonstandardAttribute name="TEXT" value="J3" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="38.907" y="-44.785"/>
+                  <PolyStepSegment x="38.907" y="-45.499"/>
+                  <PolyStepSegment x="38.859" y="-45.642"/>
+                  <PolyStepSegment x="38.764" y="-45.737"/>
+                  <PolyStepSegment x="38.621" y="-45.785"/>
+                  <PolyStepSegment x="38.526" y="-45.785"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="39.288" y="-44.785"/>
+                  <PolyStepSegment x="39.907" y="-44.785"/>
+                  <PolyStepSegment x="39.573" y="-45.166"/>
+                  <PolyStepSegment x="39.716" y="-45.166"/>
+                  <PolyStepSegment x="39.811" y="-45.213"/>
+                  <PolyStepSegment x="39.859" y="-45.261"/>
+                  <PolyStepSegment x="39.907" y="-45.356"/>
+                  <PolyStepSegment x="39.907" y="-45.594"/>
+                  <PolyStepSegment x="39.859" y="-45.690"/>
+                  <PolyStepSegment x="39.811" y="-45.737"/>
+                  <PolyStepSegment x="39.716" y="-45.785"/>
+                  <PolyStepSegment x="39.430" y="-45.785"/>
+                  <PolyStepSegment x="39.335" y="-45.737"/>
+                  <PolyStepSegment x="39.288" y="-45.690"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="LAYER:Edge.Cuts">
+          <Set>
+            <Features>
+              <Location x="73.0" y="-58.50"/>
+              <UserPrimitiveRef id="URECT_4"/>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="LAYER:F.Courtyard">
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="104.80" startY="-89.680" endX="104.80" endY="-28.080">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="104.80" startY="-28.080" endX="86.450" endY="-28.080">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="86.450" startY="-89.680" endX="104.80" endY="-89.680">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="86.450" startY="-28.080" endX="86.450" endY="-89.680">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.690" startY="-79.930" endX="118.690" endY="-71.680">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.690" startY="-71.680" endX="109.290" endY="-71.680">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="109.290" startY="-79.930" endX="118.690" endY="-79.930">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="109.290" startY="-71.680" endX="109.290" endY="-79.930">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="47.490" startY="-69.630" endX="47.490" endY="-29.830">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="72.990" startY="-69.630" endX="47.490" endY="-69.630">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="47.490" startY="-29.830" endX="72.990" endY="-29.830">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J4">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="72.990" startY="-29.830" endX="72.990" endY="-69.630">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="111.940" startY="-30.380" endX="111.940" endY="-51.730">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="111.940" startY="-51.730" endX="115.540" endY="-51.730">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="115.540" startY="-30.380" endX="111.940" endY="-30.380">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="115.540" startY="-51.730" endX="115.540" endY="-30.380">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.440" startY="-46.30" endX="40.990" endY="-46.30">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.440" startY="-70.20" endX="37.440" endY="-46.30">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="40.990" startY="-46.30" endX="40.990" endY="-70.20">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="40.990" startY="-70.20" endX="37.440" endY="-70.20">
+                <LineDesc lineWidth="0.050" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="LAYER:F.Fab">
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="104.510" startY="-89.430" endX="104.510" endY="-28.350">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="104.510" startY="-28.350" endX="86.730" endY="-28.350">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="102.985" startY="-89.370" endX="88.255" endY="-89.370">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="102.985" startY="-28.410" endX="102.985" endY="-89.370">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="89.255" startY="-28.410" endX="102.985" endY="-28.410">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="88.255" startY="-89.370" endX="88.255" endY="-29.410">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="88.255" startY="-29.410" endX="89.255" endY="-28.410">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="86.730" startY="-89.430" endX="104.510" endY="-89.430">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J2">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="86.730" startY="-28.350" endX="86.730" endY="-89.430">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J2">
+            <NonstandardAttribute name="TEXT" value="teensy 4.1" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Line startX="91.763" startY="-90.218" endX="92.144" endY="-90.218">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="91.906" y="-89.885"/>
+                  <PolyStepSegment x="91.906" y="-90.742"/>
+                  <PolyStepSegment x="91.953" y="-90.837"/>
+                  <PolyStepSegment x="92.049" y="-90.885"/>
+                  <PolyStepSegment x="92.144" y="-90.885"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="92.858" y="-90.837"/>
+                  <PolyStepSegment x="92.763" y="-90.885"/>
+                  <PolyStepSegment x="92.572" y="-90.885"/>
+                  <PolyStepSegment x="92.477" y="-90.837"/>
+                  <PolyStepSegment x="92.430" y="-90.742"/>
+                  <PolyStepSegment x="92.430" y="-90.361"/>
+                  <PolyStepSegment x="92.477" y="-90.266"/>
+                  <PolyStepSegment x="92.572" y="-90.218"/>
+                  <PolyStepSegment x="92.763" y="-90.218"/>
+                  <PolyStepSegment x="92.858" y="-90.266"/>
+                  <PolyStepSegment x="92.906" y="-90.361"/>
+                  <PolyStepSegment x="92.906" y="-90.456"/>
+                  <PolyStepSegment x="92.430" y="-90.551"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="93.715" y="-90.837"/>
+                  <PolyStepSegment x="93.620" y="-90.885"/>
+                  <PolyStepSegment x="93.430" y="-90.885"/>
+                  <PolyStepSegment x="93.334" y="-90.837"/>
+                  <PolyStepSegment x="93.287" y="-90.742"/>
+                  <PolyStepSegment x="93.287" y="-90.361"/>
+                  <PolyStepSegment x="93.334" y="-90.266"/>
+                  <PolyStepSegment x="93.430" y="-90.218"/>
+                  <PolyStepSegment x="93.620" y="-90.218"/>
+                  <PolyStepSegment x="93.715" y="-90.266"/>
+                  <PolyStepSegment x="93.763" y="-90.361"/>
+                  <PolyStepSegment x="93.763" y="-90.456"/>
+                  <PolyStepSegment x="93.287" y="-90.551"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Line startX="94.191" startY="-90.218" endX="94.191" endY="-90.885">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="94.191" y="-90.313"/>
+                  <PolyStepSegment x="94.239" y="-90.266"/>
+                  <PolyStepSegment x="94.334" y="-90.218"/>
+                  <PolyStepSegment x="94.477" y="-90.218"/>
+                  <PolyStepSegment x="94.572" y="-90.266"/>
+                  <PolyStepSegment x="94.620" y="-90.361"/>
+                  <PolyStepSegment x="94.620" y="-90.885"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="95.049" y="-90.837"/>
+                  <PolyStepSegment x="95.144" y="-90.885"/>
+                  <PolyStepSegment x="95.334" y="-90.885"/>
+                  <PolyStepSegment x="95.430" y="-90.837"/>
+                  <PolyStepSegment x="95.477" y="-90.742"/>
+                  <PolyStepSegment x="95.477" y="-90.694"/>
+                  <PolyStepSegment x="95.430" y="-90.599"/>
+                  <PolyStepSegment x="95.334" y="-90.551"/>
+                  <PolyStepSegment x="95.191" y="-90.551"/>
+                  <PolyStepSegment x="95.096" y="-90.504"/>
+                  <PolyStepSegment x="95.049" y="-90.409"/>
+                  <PolyStepSegment x="95.049" y="-90.361"/>
+                  <PolyStepSegment x="95.096" y="-90.266"/>
+                  <PolyStepSegment x="95.191" y="-90.218"/>
+                  <PolyStepSegment x="95.334" y="-90.218"/>
+                  <PolyStepSegment x="95.430" y="-90.266"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="95.810" y="-90.218"/>
+                  <PolyStepSegment x="96.049" y="-90.885"/>
+                  <PolyStepSegment x="96.287" y="-90.218"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="96.049" y="-90.885"/>
+                  <PolyStepSegment x="95.953" y="-91.123"/>
+                  <PolyStepSegment x="95.906" y="-91.171"/>
+                  <PolyStepSegment x="95.810" y="-91.218"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Line startX="97.858" startY="-90.218" endX="97.858" endY="-90.885">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="97.620" y="-89.837"/>
+                  <PolyStepSegment x="97.382" y="-90.551"/>
+                  <PolyStepSegment x="98.001" y="-90.551"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="98.382" y="-90.790"/>
+                  <PolyStepSegment x="98.430" y="-90.837"/>
+                  <PolyStepSegment x="98.382" y="-90.885"/>
+                  <PolyStepSegment x="98.334" y="-90.837"/>
+                  <PolyStepSegment x="98.382" y="-90.790"/>
+                  <PolyStepSegment x="98.382" y="-90.885"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Line startX="99.382" startY="-90.885" endX="98.810" endY="-90.885">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="99.096" y="-90.885"/>
+                  <PolyStepSegment x="99.096" y="-89.885"/>
+                  <PolyStepSegment x="99.001" y="-90.028"/>
+                  <PolyStepSegment x="98.906" y="-90.123"/>
+                  <PolyStepSegment x="98.810" y="-90.171"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J2">
+            <NonstandardAttribute name="TEXT" value="J2" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="95.287" y="-58.345"/>
+                  <PolyStepSegment x="95.287" y="-59.059"/>
+                  <PolyStepSegment x="95.239" y="-59.202"/>
+                  <PolyStepSegment x="95.144" y="-59.297"/>
+                  <PolyStepSegment x="95.001" y="-59.345"/>
+                  <PolyStepSegment x="94.906" y="-59.345"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="95.715" y="-58.440"/>
+                  <PolyStepSegment x="95.763" y="-58.392"/>
+                  <PolyStepSegment x="95.858" y="-58.345"/>
+                  <PolyStepSegment x="96.096" y="-58.345"/>
+                  <PolyStepSegment x="96.191" y="-58.392"/>
+                  <PolyStepSegment x="96.239" y="-58.440"/>
+                  <PolyStepSegment x="96.287" y="-58.535"/>
+                  <PolyStepSegment x="96.287" y="-58.631"/>
+                  <PolyStepSegment x="96.239" y="-58.773"/>
+                  <PolyStepSegment x="95.668" y="-59.345"/>
+                  <PolyStepSegment x="96.287" y="-59.345"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.690" startY="-79.930" endX="116.690" endY="-79.930">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.690" startY="-78.680" endX="118.690" endY="-79.930">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.190" startY="-79.430" endX="118.190" endY="-72.180">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="118.190" startY="-72.180" endX="109.790" endY="-72.180">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="109.790" startY="-79.430" endX="118.190" endY="-79.430">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J1">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="109.790" startY="-72.180" endX="109.790" endY="-79.430">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J1">
+            <NonstandardAttribute name="TEXT" value="J1" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="113.657" y="-78.185"/>
+                  <PolyStepSegment x="113.657" y="-78.899"/>
+                  <PolyStepSegment x="113.609" y="-79.042"/>
+                  <PolyStepSegment x="113.514" y="-79.137"/>
+                  <PolyStepSegment x="113.371" y="-79.185"/>
+                  <PolyStepSegment x="113.276" y="-79.185"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Line startX="114.657" startY="-79.185" endX="114.085" endY="-79.185">
+                  <LineDescRef id="LINE_2"/>
+                </Line>
+                <Polyline>
+                  <PolyBegin x="114.371" y="-79.185"/>
+                  <PolyStepSegment x="114.371" y="-78.185"/>
+                  <PolyStepSegment x="114.276" y="-78.328"/>
+                  <PolyStepSegment x="114.180" y="-78.423"/>
+                  <PolyStepSegment x="114.085" y="-78.471"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.470" startY="-31.545" endX="113.105" endY="-30.910">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="112.470" startY="-51.230" endX="112.470" endY="-31.545">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="113.105" startY="-30.910" endX="115.010" endY="-30.910">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="115.010" startY="-30.910" endX="115.010" endY="-51.230">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J5">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="115.010" startY="-51.230" endX="112.470" endY="-51.230">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J5">
+            <NonstandardAttribute name="TEXT" value="J5" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="113.195" y="-41.403"/>
+                  <PolyStepSegment x="113.909" y="-41.403"/>
+                  <PolyStepSegment x="114.052" y="-41.451"/>
+                  <PolyStepSegment x="114.147" y="-41.546"/>
+                  <PolyStepSegment x="114.195" y="-41.689"/>
+                  <PolyStepSegment x="114.195" y="-41.784"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="113.195" y="-40.451"/>
+                  <PolyStepSegment x="113.195" y="-40.927"/>
+                  <PolyStepSegment x="113.671" y="-40.975"/>
+                  <PolyStepSegment x="113.623" y="-40.927"/>
+                  <PolyStepSegment x="113.576" y="-40.832"/>
+                  <PolyStepSegment x="113.576" y="-40.594"/>
+                  <PolyStepSegment x="113.623" y="-40.499"/>
+                  <PolyStepSegment x="113.671" y="-40.451"/>
+                  <PolyStepSegment x="113.766" y="-40.403"/>
+                  <PolyStepSegment x="114.004" y="-40.403"/>
+                  <PolyStepSegment x="114.10" y="-40.451"/>
+                  <PolyStepSegment x="114.147" y="-40.499"/>
+                  <PolyStepSegment x="114.195" y="-40.594"/>
+                  <PolyStepSegment x="114.195" y="-40.832"/>
+                  <PolyStepSegment x="114.147" y="-40.927"/>
+                  <PolyStepSegment x="114.10" y="-40.975"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.970" startY="-46.830" endX="39.875" endY="-46.830">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="37.970" startY="-69.690" endX="37.970" endY="-46.830">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="39.875" startY="-46.830" endX="40.510" endY="-47.465">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="40.510" startY="-47.465" endX="40.510" endY="-69.690">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="GRAPHIC" componentRef="CMP:J3">
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <Line startX="40.510" startY="-69.690" endX="37.970" endY="-69.690">
+                <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+              </Line>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT" componentRef="CMP:J3">
+            <NonstandardAttribute name="TEXT" value="J3" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="38.695" y="-58.593"/>
+                  <PolyStepSegment x="39.409" y="-58.593"/>
+                  <PolyStepSegment x="39.552" y="-58.641"/>
+                  <PolyStepSegment x="39.647" y="-58.736"/>
+                  <PolyStepSegment x="39.695" y="-58.879"/>
+                  <PolyStepSegment x="39.695" y="-58.974"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="38.695" y="-58.212"/>
+                  <PolyStepSegment x="38.695" y="-57.593"/>
+                  <PolyStepSegment x="39.076" y="-57.927"/>
+                  <PolyStepSegment x="39.076" y="-57.784"/>
+                  <PolyStepSegment x="39.123" y="-57.689"/>
+                  <PolyStepSegment x="39.171" y="-57.641"/>
+                  <PolyStepSegment x="39.266" y="-57.593"/>
+                  <PolyStepSegment x="39.504" y="-57.593"/>
+                  <PolyStepSegment x="39.60" y="-57.641"/>
+                  <PolyStepSegment x="39.647" y="-57.689"/>
+                  <PolyStepSegment x="39.695" y="-57.784"/>
+                  <PolyStepSegment x="39.695" y="-58.070"/>
+                  <PolyStepSegment x="39.647" y="-58.165"/>
+                  <PolyStepSegment x="39.60" y="-58.212"/>
+                  <LineDescRef id="LINE_2"/>
+                </Polyline>
+              </UserSpecial>
+            </Features>
+          </Set>
+        </LayerFeature>
+        <LayerFeature layerRef="DRILL:F.Cu_B.Cu">
+          <Set geometry="PADSTACK_1" net="NET:Net-(J1-Pin_1)">
+            <Hole name="H1" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-32.180"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J1-Pin_2)">
+            <Hole name="H2" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-34.720"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J2-Pin_32)">
+            <Hole name="H3" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-37.260"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J2-Pin_33)">
+            <Hole name="H4" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-39.80"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J2-Pin_43)">
+            <Hole name="H5" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-42.340"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J2-Pin_42)">
+            <Hole name="H6" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-44.880"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J2-Pin_41)">
+            <Hole name="H7" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-47.420"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J2-Pin_40)">
+            <Hole name="H8" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="113.740" y="-49.960"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_1-Pad1)">
+            <Hole name="H9" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-68.780"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_2-Pad2)">
+            <Hole name="H10" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-66.240"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_3-Pad3)">
+            <Hole name="H11" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-63.70"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_4-Pad4)">
+            <Hole name="H12" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-61.160"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_5-Pad5)">
+            <Hole name="H13" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-58.620"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_39)">
+            <Hole name="H14" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-56.080"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_27)">
+            <Hole name="H15" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-53.540"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_8-Pad8)">
+            <Hole name="H16" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-51.0"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_9-Pad9)">
+            <Hole name="H17" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-48.460"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_10-Pad10)">
+            <Hole name="H18" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-45.920"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_11-Pad11)">
+            <Hole name="H19" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-43.380"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_12-Pad12)">
+            <Hole name="H20" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-40.840"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_13-Pad13)">
+            <Hole name="H21" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-38.30"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_14-Pad14)">
+            <Hole name="H22" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-35.760"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_30)">
+            <Hole name="H23" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-33.220"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_16-Pad16)">
+            <Hole name="H24" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="71.740" y="-30.680"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_17-Pad17)">
+            <Hole name="H25" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-68.780"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J3-Pin_4)">
+            <Hole name="H26" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-66.240"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J3-Pin_5)">
+            <Hole name="H27" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-63.70"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_20-Pad20)">
+            <Hole name="H28" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-61.160"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_21-Pad21)">
+            <Hole name="H29" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-58.620"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_22-Pad22)">
+            <Hole name="H30" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-56.080"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J1-Pin_1)">
+            <Hole name="H31" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-53.540"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_24-Pad24)">
+            <Hole name="H32" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-51.0"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J1-Pin_2)">
+            <Hole name="H33" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-48.460"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_14)">
+            <Hole name="H34" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-45.920"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_13)">
+            <Hole name="H35" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-43.380"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_38)">
+            <Hole name="H36" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-40.840"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_11)">
+            <Hole name="H37" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-38.30"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:Net-(J2-Pin_12)">
+            <Hole name="H38" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-35.760"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_31-Pad31)">
+            <Hole name="H39" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-33.220"/>
+          </Set>
+          <Set geometry="PADSTACK_3" net="NET:unconnected-(J4-Pin_32-Pad32)">
+            <Hole name="H40" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="48.740" y="-30.680"/>
+          </Set>
+          <Set geometry="PADSTACK_1" net="NET:Net-(J1-Pin_1)">
+            <Hole name="H41" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-48.10"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J1-Pin_2)">
+            <Hole name="H42" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-50.640"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:unconnected-(J3-Pin_3-Pad3)">
+            <Hole name="H43" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-53.180"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J3-Pin_4)">
+            <Hole name="H44" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-55.720"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:Net-(J3-Pin_5)">
+            <Hole name="H45" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-58.260"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:unconnected-(J3-Pin_6-Pad6)">
+            <Hole name="H46" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-60.80"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:unconnected-(J3-Pin_7-Pad7)">
+            <Hole name="H47" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-63.340"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:unconnected-(J3-Pin_8-Pad8)">
+            <Hole name="H48" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-65.880"/>
+          </Set>
+          <Set geometry="PADSTACK_2" net="NET:unconnected-(J3-Pin_9-Pad9)">
+            <Hole name="H49" diameter="1.0" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="39.240" y="-68.420"/>
+          </Set>
+          <Set geometry="PADSTACK_4" net="NET:Net-(J1-Pin_1)">
+            <Hole name="H50" diameter="1.20" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="115.740" y="-75.180"/>
+          </Set>
+          <Set geometry="PADSTACK_5" net="NET:Net-(J1-Pin_2)">
+            <Hole name="H51" diameter="1.20" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="112.240" y="-75.180"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_48-Pad48)">
+            <Hole name="H52" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-29.680"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_47-Pad47)">
+            <Hole name="H53" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-32.220"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_46-Pad46)">
+            <Hole name="H54" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-34.760"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_45-Pad45)">
+            <Hole name="H55" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-37.30"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_44-Pad44)">
+            <Hole name="H56" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-39.840"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_43)">
+            <Hole name="H57" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-42.380"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_42)">
+            <Hole name="H58" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-44.920"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_41)">
+            <Hole name="H59" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-47.460"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_40)">
+            <Hole name="H60" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-50.0"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_39)">
+            <Hole name="H61" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-52.540"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_38)">
+            <Hole name="H62" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-55.080"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_37-Pad37)">
+            <Hole name="H63" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-57.620"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_36-Pad36)">
+            <Hole name="H64" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-60.160"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_35-Pad35)">
+            <Hole name="H65" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-62.70"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_34-Pad34)">
+            <Hole name="H66" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-65.240"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_33)">
+            <Hole name="H67" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-67.780"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_32)">
+            <Hole name="H68" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-70.320"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_31-Pad31)">
+            <Hole name="H69" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-72.860"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_30)">
+            <Hole name="H70" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-75.40"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_29-Pad29)">
+            <Hole name="H71" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-77.940"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_28-Pad28)">
+            <Hole name="H72" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-80.480"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_27)">
+            <Hole name="H73" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-83.020"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J1-Pin_2)">
+            <Hole name="H74" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-85.560"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J1-Pin_1)">
+            <Hole name="H75" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="103.240" y="-88.10"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_24-Pad24)">
+            <Hole name="H76" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-88.10"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_23-Pad23)">
+            <Hole name="H77" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-85.560"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_22-Pad22)">
+            <Hole name="H78" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-83.020"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_21-Pad21)">
+            <Hole name="H79" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-80.480"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_20-Pad20)">
+            <Hole name="H80" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-77.940"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_19-Pad19)">
+            <Hole name="H81" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-75.40"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_18-Pad18)">
+            <Hole name="H82" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-72.860"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_17-Pad17)">
+            <Hole name="H83" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-70.320"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_16-Pad16)">
+            <Hole name="H84" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-67.780"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_15-Pad15)">
+            <Hole name="H85" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-65.240"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_14)">
+            <Hole name="H86" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-62.70"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_13)">
+            <Hole name="H87" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-60.160"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_12)">
+            <Hole name="H88" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-57.620"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:Net-(J2-Pin_11)">
+            <Hole name="H89" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-55.080"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_10-Pad10)">
+            <Hole name="H90" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-52.540"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_9-Pad9)">
+            <Hole name="H91" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-50.0"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_8-Pad8)">
+            <Hole name="H92" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-47.460"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_7-Pad7)">
+            <Hole name="H93" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-44.920"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_6-Pad6)">
+            <Hole name="H94" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-42.380"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_5-Pad5)">
+            <Hole name="H95" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-39.840"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_4-Pad4)">
+            <Hole name="H96" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-37.30"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_3-Pad3)">
+            <Hole name="H97" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-34.760"/>
+          </Set>
+          <Set geometry="PADSTACK_6" net="NET:unconnected-(J2-Pin_2-Pad2)">
+            <Hole name="H98" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-32.220"/>
+          </Set>
+          <Set geometry="PADSTACK_7" net="NET:unconnected-(J2-Pin_1-Pad1)">
+            <Hole name="H99" diameter="0.80" platingStatus="PLATED" plusTol="0.0" minusTol="0.0" x="88.0" y="-29.680"/>
+          </Set>
+        </LayerFeature>
+      </Step>
+    </CadData>
+  </Ecad>
+  <Avl name="Primary_Vendor_List">
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2024-07-16T20:56:02" version="1"/>
+    <AvlItem OEMDesignNumber="REF:Package_DIP_DIP-48_W15.24mm_Socket_LongPads_teensy 4.1"/>
+    <AvlItem OEMDesignNumber="REF:Connector_Phoenix_MC_PhoenixContact_MCV_1,5_2-G-3.5_1x02_P3.50mm_Vertical_Screw_Terminal_01x02"/>
+    <AvlItem OEMDesignNumber="REF:TempLibrary_vs1053b_vs1053b"/>
+    <AvlItem OEMDesignNumber="REF:Connector_PinHeader_2.54mm_PinHeader_1x08_P2.54mm_Vertical_flex_imu_connector"/>
+    <AvlItem OEMDesignNumber="REF:Connector_PinSocket_2.54mm_PinSocket_1x09_P2.54mm_Vertical_MAX98306"/>
+  </Avl>
+</IPC-2581>
